@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\daiver\\source\\repos\\mauiapp1\\ventanas\\crearperfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\usuario\\documents\\pita\\final\\appmurui\\ventanas\\traductor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\traductor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\usuario\\documents\\pita\\final\\appmurui\\ventanas\\traductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\traductor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\usuario\\documents\\pita\\final\\appmurui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|c:\\users\\usuario\\documents\\pita\\final\\appmurui\\ventanas\\crearperfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{702788C6-2269-4398-B465-C68D89ABDA3D}|MauiApp1.csproj|solutionrelative:ventanas\\crearperfil.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 155,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,11 +34,50 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Traductor.xaml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\Ventanas\\Traductor.xaml",
+              "RelativeDocumentMoniker": "Ventanas\\Traductor.xaml",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\Ventanas\\Traductor.xaml",
+              "RelativeToolTip": "Ventanas\\Traductor.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-06T18:43:08.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Traductor.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\Ventanas\\Traductor.xaml.cs",
+              "RelativeDocumentMoniker": "Ventanas\\Traductor.xaml.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\Ventanas\\Traductor.xaml.cs",
+              "RelativeToolTip": "Ventanas\\Traductor.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:41:37.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T18:17:03.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Crearperfil.xaml",
-              "DocumentMoniker": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Crearperfil.xaml",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\Ventanas\\Crearperfil.xaml",
               "RelativeDocumentMoniker": "Ventanas\\Crearperfil.xaml",
-              "ToolTip": "C:\\Users\\Daiver\\source\\repos\\MauiApp1\\Ventanas\\Crearperfil.xaml",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\PITA\\FINAL\\appmurui\\Ventanas\\Crearperfil.xaml",
               "RelativeToolTip": "Ventanas\\Crearperfil.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",

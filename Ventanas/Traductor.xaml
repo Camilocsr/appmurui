@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <VerticalStackLayout Padding="10" Spacing="20">
 
-            <!-- titulo -->
+            <!-- Título -->
             <Label 
                 Text="Traductor"
                 FontSize="30"
@@ -19,7 +19,7 @@
                 Padding="15"
                 VerticalOptions="Start" />
 
-            <!-- seccion 1 -->
+            <!-- Sección de Español -->
             <Label 
                 Text="Español"
                 FontSize="30"
@@ -45,25 +45,33 @@
                         x:Name="espanol"
                         />
                     <Label
-                        Text="Caracteres 0/250 "
+                        Text="Caracteres 0/250"
                         FontSize="20"
                         TextColor="White"
                         HorizontalOptions="End"
                         VerticalOptions="End"
                         x:Name="contadorcaracter"
                         />
-
                 </Grid>
             </Frame>
 
-            <!-- intercambio de idioma -->
+            <!-- Botón para traducir -->
+            <Button
+                Text="Traducir"
+                FontSize="20"
+                TextColor="White"
+                BackgroundColor="#FF5733"
+                HorizontalOptions="Center"
+                Clicked="TraducirTexto" />
+
+            <!-- Intercambio de idioma -->
             <Image 
                 Source="iconoflechasorden.png" 
                 WidthRequest="40" 
                 HeightRequest="40" 
                 HorizontalOptions="Center" />
 
-            <!-- seccion de traduccion -->
+            <!-- Sección de Traducción -->
             <Label 
                 Text="Murui"
                 FontSize="30"
@@ -79,6 +87,7 @@
                 VerticalOptions="Start">
                 <Grid>
                     <Label 
+                        x:Name="traduccion"
                         Text="Traducción"
                         FontSize="16"
                         TextColor="White"
