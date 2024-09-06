@@ -1,16 +1,21 @@
 using RestSharp;
 using System;
-using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using Microsoft.Maui.Controls;
+using MauiApp1.Services;
 
 namespace MauiApp1.Ventanas
 {
     public partial class Traductor : ContentPage
     {
+        private readonly ElevenLabsService _elevenLabsService;
+
         public Traductor()
         {
             InitializeComponent();
+            _elevenLabsService = new ElevenLabsService();
         }
 
         private void limitecaracter(object sender, TextChangedEventArgs e)
@@ -32,9 +37,7 @@ namespace MauiApp1.Ventanas
             try
             {
                 var client = new RestClient("http://localhost:5000");
-
                 var request = new RestRequest("translate", Method.Post);
-
                 request.AddJsonBody(new { sentence = texto });
 
                 var response = await client.ExecuteAsync(request);
@@ -46,6 +49,9 @@ namespace MauiApp1.Ventanas
                     if (result != null && result.ContainsKey("translated_text"))
                     {
                         traduccion.Text = result["translated_text"];
+
+                        string audioFilePath = await _elevenLabsService.ConvertTextToSpeechAsync(result["translated_text"]);
+                        await DisplayAlert("Éxito", $"El audio se guardó en: {audioFilePath}", "OK");
                     }
                     else
                     {
